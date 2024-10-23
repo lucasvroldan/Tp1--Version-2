@@ -1,0 +1,163 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: darkturquoise;
+    padding-left: 20px;
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+  }
+  
+  .sidebar a {
+    display: block;
+    padding: 15px 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+  }
+  .sidebar a.selected {
+    background-color: white;
+    color: darkturquoise;
+    font-weight: 700;
+  }
+  .sidebar a:hover {
+    background-color: paleturquoise;
+  }
+  
+
+  .header title {
+    box-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.75);
+    padding-left: 20px;
+ /*   font-size: ;*/
+
+  }
+
+  .card {
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.75);
+    width: initial 200px;
+  }
+
+/* Estilos para el contenedor del formulario */
+.Datos {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Estilos para el formulario */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para la tabla */
+.Mostrar {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead {
+    background-color: #007bff;
+    color: white;
+}
+
+thead th {
+    padding: 10px;
+    text-align: left;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Estilos para la paginación */
+.paginacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.paginacion select {
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+button#back, button#next {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button#back:hover, button#next:hover {
+    background-color: #0056b3;
+}
+
+#currentPage {
+    margin: 0 10px;
+    font-weight: bold;
+}
